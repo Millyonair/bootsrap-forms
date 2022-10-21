@@ -1,0 +1,51 @@
+.main{
+    min-height: 100vh;
+    background-image: linear-gradient(to right,#a63139, #2c5daa);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner{
+    background-color: black;
+    width: 60%;
+    height: 30rem;
+    transition: all;
+    transition-duration: 0.5s;
+
+}
+
+.inner .custom-input{
+    width: 50%;
+    margin: 2rem auto;
+    text-align: center;
+    background-color: transparent;
+    border: 1px solid #51758c;
+    border-radius: 20px;
+    box-shadow: none;
+    color: white;
+
+}
+/* styling of placeholder */
+/* .inner .custom-input::placeholder{
+    
+} */
+.inner .login-button{
+    background-color: transparent;
+    border-radius: 20px;
+    box-shadow: none;
+}
+
+.inner .login-button:active:focus{
+    box-shadow: none;
+}
+
+@media(max-width:654px){
+    .inner{
+        width:80%;
+       
+    }
+    .inner .custom-input{
+        width: 75%;
+    }
+}

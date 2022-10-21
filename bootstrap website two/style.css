@@ -1,0 +1,86 @@
+.navbar{
+    background: linear-gradient(to right,#a517ba, #621785);
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar .navbar-brand{
+    letter-spacing: 7px;
+}
+
+.hero-section{
+    min-height: 90vh;
+    background: linear-gradient(to right,#a517ba, #621785);
+}
+.hero-section .row{
+    min-height: 90vh !important;
+}
+.fancy-title .line-one{
+    width: 80px;
+    height: 5px;
+    margin: 0 auto;
+    background-color: purple;
+    position: relative;
+}
+
+.fancy-title .line-two{
+    width: 40px;
+    height: 12px;
+    margin: 0 auto;
+    background-color: purple;
+    position: absolute;
+    left: 25%;
+    bottom: -3px;
+}
+
+.custom-btn{
+    background: linear-gradient(to right,#a517ba, #621785);
+    color: white;
+    border-radius: 30px;
+    padding: 9px 20px;
+}
+
+.about-us li{
+    list-style-type: none;
+    font-size: 19px;
+    margin-top: 10px;
+}
+
+.about-us{
+    background-color: whitesmoke;
+    padding: 30px 30px;
+}
+
+.testimonial .inner{
+    border-left: 4px solid purple;
+}
+
+.social .social-images img{
+    width: 7%;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: all;
+    transition-duration: 0.5s;
+    transition-timing-function: ease;
+}
+
+.social .social-images img:hover{
+    transform: translateY(-10px);
+}
+
+.footer{
+    background: linear-gradient(to right, #a517ba, #621785);
+    min-height: 10rem;
+}
+
+.footer .info-icons i{
+    background: linear-gradient(to right, #a517ba, #621785);
+    padding: 10px;
+}
+
+.footer .newsletter .customised-btn{
+    background: linear-gradient(to right, #a517ba, #621785);
+color: white; 
+}

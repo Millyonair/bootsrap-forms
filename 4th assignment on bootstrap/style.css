@@ -1,0 +1,13 @@
+.main{
+    min-height: 100vh;
+    background: linear-gradient(#65decf, #4e84e6);
+    padding-top: 70px;
+}
+
+.main .first-box{
+    height: 80vh;
+    width: 50%;
+    background-color: white;
+    margin: auto;
+}
+
